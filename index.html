@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Earn Cash with Paid Surveys | Survey Authority</title>
+
+    <!-- SEO & Social -->
+    <meta name="description" content="Earn cash completing surveys and testing products — flexible side income for US residents 18+. Join Survey Authority and start earning today.">
+    <link rel="canonical" href="https://yourdomain.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Earn Cash with Paid Surveys | Survey Authority">
+    <meta property="og:description" content="Earn cash completing surveys and testing products. Flexible, no experience required. Sign up now.">
+    <meta property="og:url" content="https://yourdomain.com/">
+    <meta property="og:image" content="https://yourdomain.com/og-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Facebook Pixel (loads only after user consent) -->
+    <script>
+        // Set your Facebook Pixel ID here (replace the placeholder).
+        window._fbPixelId = 'YOUR_FACEBOOK_PIXEL_ID';
+
+        function loadFbPixel(){
+            if(!window._fbPixelId || window._fbPixelId === 'YOUR_FACEBOOK_PIXEL_ID') return;
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', window._fbPixelId);
+            fbq('track', 'PageView');
+        }
+
+        // Auto-load if user previously granted consent
+        if(localStorage.getItem('sa_tracking_consent') === 'granted'){
+            loadFbPixel();
+        }
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+             src="https://www.facebook.com/tr?id=YOUR_FACEBOOK_PIXEL_ID&ev=PageView&noscript=1" />
+    </noscript>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        :root{ --brand: #1877f2; --brand-dark: #0d5fc5; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f4f7fa;
+            line-height: 1.7;
+            color: #333;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            width: 100%;
+        }
+        main.prelander-card {
+            background: white;
+            border-radius: 20px;
+            padding: 45px 35px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+        .badge-icon {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+        h1 {
+            font-size: 32px;
+            color: #1a1a2e;
+            margin-bottom: 12px;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+        .subhead {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 25px;
+        }
+        .benefits-grid {
+            text-align: left;
+            background: #f8faff;
+            padding: 25px 30px;
+            border-radius: 14px;
+            margin: 20px 0 25px;
+            border: 1px solid #e9edf4;
+        }
+        .benefits-grid p {
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        .benefits-grid p:last-child {
+            margin-bottom: 0;
+        }
+        .testimonial {
+            background: #f0f7ff;
+            padding: 20px 25px;
+            border-radius: 12px;
+            margin: 20px 0 25px;
+            font-style: italic;
+            color: #1a3a5c;
+            border-left: 5px solid var(--brand);
+            text-align: left;
+        }
+        .testimonial span {
+            display: block;
+            font-style: normal;
+            font-weight: 600;
+            margin-top: 8px;
+            color: #333;
+        }
+        .cta-button {
+            display: inline-block;
+            background: var(--brand);
+            color: white;
+            font-size: 22px;
+            font-weight: 700;
+            padding: 18px 50px;
+            border-radius: 50px;
+            text-decoration: none;
+            margin: 15px 0 18px;
+            transition: background 0.25s, transform 0.1s;
+            box-shadow: 0 6px 20px rgba(24, 119, 242, 0.3);
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+        }
+        .cta-button:hover { background: var(--brand-dark); transform: scale(1.02); }
+        .cta-button:focus { outline: 3px solid rgba(24,119,242,0.25); outline-offset: 3px; }
+        .disclaimer {
+            font-size: 13px;
+            color: #666;
+            margin-top: 15px;
+        }
+        .disclaimer a { color: var(--brand); text-decoration: none; }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 13px;
+            color: #aaa;
+        }
+        footer a { color: #888; text-decoration: none; margin: 0 8px; }
+
+        /* Cookie / Consent banner */
+        .sa-consent {
+            position: fixed;
+            left: 20px;
+            right: 20px;
+            bottom: 20px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+            padding: 16px 18px;
+            display: flex;
+            gap: 12px;
+            align-items: center;
+            justify-content: space-between;
+            z-index: 9999;
+            max-width: 980px;
+            margin: 0 auto;
+        }
+        .sa-consent p { font-size: 14px; color: #333; margin: 0; }
+        .sa-consent .actions { display: flex; gap: 8px; }
+        .btn { padding: 10px 14px; border-radius: 8px; border: none; cursor: pointer; font-weight: 600; }
+        .btn-accept { background: var(--brand); color: white; }
+        .btn-decline { background: #f1f3f5; color: #333; }
+
+        @media (max-width: 550px) {
+            main.prelander-card { padding: 30px 20px; }
+            h1 { font-size: 26px; }
+            .cta-button { font-size: 19px; padding: 16px 30px; }
+            .benefits-grid { padding: 20px; }
+            .sa-consent { flex-direction: column; align-items: stretch; }
+            .sa-consent .actions { justify-content: flex-end; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <main class="prelander-card" role="main">
+        <div class="badge-icon" role="img" aria-label="Money bag">💰</div>
+        <h1>Looking for the Ultimate Side Hustle?</h1>
+        <p class="subhead">Earn real cash by sharing your opinions. Join thousands already getting paid.</p>
+
+        <div class="benefits-grid">
+            <p>✅ Get paid for completing surveys and testing products</p>
+            <p>✅ No experience needed — start today</p>
+            <p>✅ Flexible work — do it from home, on your own time</p>
+        </div>
+
+        <div class="testimonial">
+            "I've made over $200 in my first month just by sharing my opinions. It's the easiest side money I've ever made."
+            <span>— Sarah M., verified member</span>
+        </div>
+
+        <!-- CTA BUTTON -->
+        <a href="https://afflat3e3.com/trk/lnk/AA70A31F-2575-4F5F-B0A3-5E1C1FBC75CA/?o=18651&c=918277&a=714088&k=57B77B62C059DF3BD4818553F73A36F6&l=19837"
+           class="cta-button"
+           target="_blank"
+           rel="noopener noreferrer sponsored nofollow"
+           aria-label="Join Survey Authority — opens in a new tab">
+           Join Survey Authority Now
+        </a>
+
+        <p class="disclaimer">By clicking, you agree to our <a href="/privacy.html">Privacy Policy</a>. 18+ only. US residents.</p>
+    </main>
+
+    <footer>
+        <a href="/privacy.html">Privacy Policy</a>
+        <span>|</span>
+        <span>© 2025 SurveyAuthority</span>
+    </footer>
+</div>
+
+<!-- Consent banner (simple) -->
+<div class="sa-consent" id="saConsent" style="display:none;" role="dialog" aria-live="polite" aria-label="Cookie consent">
+    <p>We use cookies and tracking to improve your experience and to serve ads. By clicking "Accept" you consent to tracking (including Facebook pixel). You can change this anytime in your browser storage.</p>
+    <div class="actions">
+        <button class="btn btn-decline" id="saDecline">Decline</button>
+        <button class="btn btn-accept" id="saAccept">Accept</button>
+    </div>
+</div>
+
+<script>
+    (function(){
+        var consent = localStorage.getItem('sa_tracking_consent');
+        var banner = document.getElementById('saConsent');
+        var accept = document.getElementById('saAccept');
+        var decline = document.getElementById('saDecline');
+        if(!consent){ banner.style.display = 'flex'; }
+        if(consent === 'granted'){
+            // already granted — load pixel
+            if(typeof loadFbPixel === 'function') loadFbPixel();
+        }
+        accept && accept.addEventListener('click', function(){
+            localStorage.setItem('sa_tracking_consent','granted');
+            banner.style.display = 'none';
+            if(typeof loadFbPixel === 'function') loadFbPixel();
+        });
+        decline && decline.addEventListener('click', function(){
+            localStorage.setItem('sa_tracking_consent','denied');
+            banner.style.display = 'none';
+        });
+    })();
+</script>
+
+</body>
+</html>
